@@ -1,0 +1,14 @@
+name: simple
+services:
+  app:
+    image: userjalil/idn-simple-apps:2.0
+    build: .
+    ports:
+      - "5000:3000"
+    volumes:
+      - vol-app:/app/public/images
+    restart: always
+
+
+volumes:
+  vol-app:
