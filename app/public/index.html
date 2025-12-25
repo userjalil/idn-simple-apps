@@ -1,14 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training DevOps</title>
-    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>Lenovo Legion - Gaming Laptop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b, #020617);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #a855f7;
+        }
+
+        header p {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            color: #cbd5f5;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background-color: #a855f7;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #9333ea;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #020617;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #1e293b;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #a855f7;
+            margin-bottom: 10px;
+        }
+
+        .specs {
+            background-color: #020617;
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid #1e293b;
+        }
+
+        .specs ul {
+            list-style: none;
+        }
+
+        .specs li {
+            padding: 10px 0;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #020617;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <img class="logo" src="./images/idn-logo.png" alt="idn-logo">
-     <h1>Belajar Devops</h1>
+
+<header>
+    <h1>Lenovo Legion</h1>
+    <p>Laptop Gaming Performa Tinggi untuk Gamer & Kreator</p>
+    <a href="#specs" class="btn">Lihat Spesifikasi</a>
+</header>
+
+<section>
+    <h2 style="text-align:center; margin-bottom:40px;">Kenapa Lenovo Legion?</h2>
+
+    <div class="features">
+        <div class="card">
+            <h3>Performa Ekstrem</h3>
+            <p>Ditenagai prosesor Intel® Core™ & AMD Ryzen™ generasi terbaru dengan GPU NVIDIA GeForce RTX.</p>
+        </div>
+
+        <div class="card">
+            <h3>Desain Gaming Premium</h3>
+            <p>Tampilan futuristik, keyboard RGB, dan sistem pendingin Legion ColdFront.</p>
+        </div>
+
+        <div class="card">
+            <h3>Layar Super Smooth</h3>
+            <p>Refresh rate hingga 165Hz untuk pengalaman gaming yang lebih responsif.</p>
+        </div>
+
+        <div class="card">
+            <h3>Audio Imersif</h3>
+            <p>Didukung Dolby Atmos® untuk suara yang lebih nyata dan detail.</p>
+        </div>
+    </div>
+</section>
+
+<section id="specs">
+    <h2 style="text-align:center; margin-bottom:40px;">Spesifikasi Utama</h2>
+
+    <div class="specs">
+        <ul>
+            <li><strong>Processor:</strong> Intel Core i7 / AMD Ryzen 7</li>
+            <li><strong>GPU:</strong> NVIDIA GeForce RTX 3060 / 4060</li>
+            <li><strong>RAM:</strong> Hingga 32GB DDR5</li>
+            <li><strong>Storage:</strong> SSD NVMe hingga 1TB</li>
+            <li><strong>Layar:</strong> 15.6" / 16" FHD–QHD, 165Hz</li>
+            <li><strong>OS:</strong> Windows 11</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    © 2025 Lenovo Legion Landing Page • Dibuat untuk keperluan demo
+</footer>
+
 </body>
 </html>
