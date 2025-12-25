@@ -1,7 +1,7 @@
 name: simple
 services:
   app:
-    image: simple-app:2.0
+    image: userjalil/idn-simple-apps:2.0
     build: .
     ports:
       - "5000:3000"
