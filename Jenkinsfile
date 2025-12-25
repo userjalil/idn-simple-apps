@@ -21,7 +21,7 @@ pipeline {
             steps {
                 sh'''
                 cd app
-                APP_PORT=5001 npm test
+                npm test
                 '''
             }
         }
